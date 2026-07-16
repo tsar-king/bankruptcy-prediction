@@ -290,9 +290,13 @@ The Docker image includes:
 |:---:|:---:|
 | ![Swagger UI](screenshots/swagger_ui.png) | ![MLflow Dashboard](screenshots/MLflow_ui.png) |
 
-| SHAP Summary | Prediction Response |
+| SHAP Summary | Prediction Input |
 |:---:|:---:|
-| ![SHAP Summary](screenshots/shap_summary_bar.png) | ![Prediction Input](screenshots/predict.png) |  ![Prediction Response](screenshots/response.png) |
+| ![SHAP Summary](screenshots/shap_summary_bar.png) | ![Prediction Input](screenshots/predict.png) | 
+
+| Prediction Response |
+|:---:|
+|![Prediction Response](screenshots/response.png) |
 
 | Beeswarm Plot | Waterfall Plot |
 |:---:|:---:|
