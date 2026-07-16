@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+env/
+
+# Conda
+miniconda3/
+anaconda3/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MLflow
+mlruns/
+
+# Data
+data/raw/*.csv
+data/processed/*
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/
+
+# Docker (ignore the image, keep the Dockerfile)
+*.tar
+
+# Logs
+*.log
+
+# Models – ignore the mlruns but keep the final model
+models/cv_folds/

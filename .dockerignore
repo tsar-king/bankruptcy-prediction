@@ -1,0 +1,47 @@
+# Version control
+.git
+.gitignore
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+.venv/
+env/
+
+# Conda
+miniconda3/
+anaconda3/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (raw/processed – we only need the trained model)
+data/raw/*
+data/processed/*
+
+# Logs
+mlruns/
+*.log
+
+# Notebooks
+notebooks/
+
+# Git
+*.gitattributes

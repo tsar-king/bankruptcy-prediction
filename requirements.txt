@@ -1,0 +1,17 @@
+# Core API dependencies
+fastapi
+uvicorn[standard]
+pydantic
+joblib
+xgboost
+scikit-learn
+pandas>=2.0,<3.0
+numpy>=1.24,<2.0
+imbalanced-learn
+shap
+matplotlib
+mlflow<3.0
+optuna
+boruta
+requests
+
